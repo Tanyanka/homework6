@@ -79,8 +79,8 @@ header > img {
     border: none;
     padding: 0 5px 0 2px;
     background-color: transparent;
-    font-family: 'Lucida Sans Unicode';
-    font-size: 10.91px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 10px;
     letter-spacing: -0.25px;
     color: #fff;
 }
@@ -91,17 +91,17 @@ header > img {
     background-color: #fff;
 }
 .registr {
-    margin: 8px 21px 0 4px;
-    font-family: 'Lucida Sans Unicode';
-    font-size: 10.91px;
+    margin: 8px 10px 0 4px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 10px;
     letter-spacing: -0.25px;
     color: #fff;
 }
 .pass {
     margin: 6px 10px 5px 0;
     border-bottom: 1px solid #bfbfbf;
-    font-family: 'Lucida Sans Unicode';
-    font-size: 12px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 11px;
     color: #bfbfbf;
 }
 .map {
@@ -181,8 +181,8 @@ nav {
     padding-top: 1px;
     line-height: 26px;
     text-transform: uppercase;
-    font-family: 'Lucida Sans Unicode';
-    font-size: 13.64px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 13px;
     color: #b1bcc0;
 }
 .menu li:hover {
@@ -201,7 +201,7 @@ nav {
 }
 .basket span {
     padding-top: 10px;
-    font-family: 'Arial';
+    font-family: 'Arial', sans-serif;
     font-size: 11px;
     color: #929b9f;
 }
@@ -252,7 +252,7 @@ nav {
 }
 .searchcar span {
     font-size: 10px;
-    font-family: "Arial Black";
+    font-family: "Arial Black", sans-serif;
     color: #154468;
 }
 .searchcar :first-child {
@@ -269,7 +269,7 @@ nav {
 }
 .values {
     padding: 10px 4px 0 15px;
-    font-family: 'Arial';
+    font-family: 'Arial', sans-serif;
     font-size: 10px;
     line-height: 8px;
     letter-spacing: 0.3px;
@@ -317,12 +317,13 @@ select {
     margin-bottom: 5px;
 }
 .poisk {
+    margin-top: -2px;
     display: flex;
     justify-content: flex-end;
-    padding: 1px 20px 0 0;
+    padding: 0 20px 0 0;
 }
 .poisk a {
-    font-family: 'Arial';
+    font-family: 'Arial', sans-serif;
     font-style: italic;
     text-decoration: underline;
     font-size: 14px;
@@ -335,7 +336,7 @@ select {
 }
 .tire p:first-child {
     padding: 2px 0 6px 9px;
-    font-family: "Arial Black";
+    font-family: "Arial Black", sans-serif;
     font-size: 12px;
     color: #154468;
 }
@@ -345,7 +346,7 @@ select {
 }
 .firstblock span:first-child {
     padding: 10px 7px 0 14px;
-    font-family: "Lucinda Sans Unicode";
+    font-family: "Lucinda Sans Unicode", sans-serif;
     letter-spacing: 0.8px;
     font-size: 10px;
     color: #000;
@@ -353,28 +354,28 @@ select {
 .firstblock select {
     padding-top: 3px;
     width: 53px;
-    font-family: "Arial";
-    font-size: 11px;
+    font-family: "Arial", sans-serif;
+    font-size: 10px;
     color: #000;
 }
 .firstblock span:nth-child(3) {
     padding: 3px 4px 0 4px;
-    font-family: 'Arial';
+    font-family: 'Arial', sans-serif;
     font-size: 14px;
     color: #000;
 }
 .radius {
-    padding-top: 5px;
+    padding-top: 3px;
 }
 .radius span {
     padding: 5px 1px 0 45px;
-    font-family: 'Arial';
+    font-family: 'Arial', sans-serif;
     font-size: 11px;
     color: #000;
 }
 .radius select {
     width: 45px;
-    font-family: 'Aril';
+    font-family: 'Aril', sans-serif;
     color: 11px;
 }
 .seasons {
@@ -383,13 +384,13 @@ select {
 }
 .seasons span {
     padding: 5px 6px 0 13px;
-    font-family: "Lucinda Sans Unicode";
+    font-family: "Lucinda Sans Unicode", sans-serif;
     letter-spacing: 0.2px;
     font-size: 11px;
     color: #000;
 }
 .checkboxes {
-    padding: 7px 0 0 7px;
+    padding: 5px 0 0 5px;
 }
 .checkbox {
     display: flex;
@@ -400,7 +401,7 @@ select {
 }
 label {
     padding-left: 1px;
-    font-family: "Lucinda Sans Unicode";
+    font-family: "Lucinda Sans Unicode", sans-serif;
     letter-spacing: 0.35px;
     line-height: 13px;
     font-size: 12px;
@@ -409,13 +410,13 @@ label {
 .disksearch {
     display: flex;
     display: row;
-    margin: -2px 0 0 9px;
+    margin: -3px 0 0 9px;
     width: 268px;
     height: 135px;
 }
 .discs > p:first-child {
     margin: 4px 0 5px 9px;
-    font-family: "Arial Black";
+    font-family: "Arial Black", sans-serif;
     letter-spacing: 0.9px;
     font-size: 12px;
     color: #114165;
@@ -426,10 +427,13 @@ label {
     display: flex;
     flex-direction: row;
 }
+.diameter option {
+    font-size: 10px;
+}
 .discs > div > p {
     padding: 2px 4px 0 16px;
     width: 88px;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 10px;
     color: #000;
 }
@@ -459,7 +463,7 @@ label {
 .dco p {
     margin-bottom: 4px;
     line-height: 8px;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 9px;
     color: #000;
 }
@@ -487,8 +491,8 @@ main {
     height: 23px;
     border: 1px solid #79878d;
     border-radius: 15px;
-    font-family: 'Lucida Sans Unicode';
-    font-size: 12.73px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 12px;
     color: #114165;
     -webkit-box-shadow: 1px 3px 3px 0px rgba(150,150,150,0.75);
     -moz-box-shadow: 1px 3px 3px 0px rgba(150,150,150,0.75);
@@ -508,7 +512,7 @@ main {
 }
 .list a {
     padding: 3px 0 0 2px;
-    font-family: 'Lucida Sans Unicode';
+    font-family: 'Lucida Sans Unicode', sans-serif;
     font-size: 14px;
     color: #114165;
 }
@@ -516,18 +520,20 @@ aside ul {
     margin-top: 5px;
 }
 aside li {
-    padding: 0 0 8px 47px;
+    margin: 0 0 8px 37px;
+    padding-left: 10px;
+    line-height: 15px;
     background-image: url(../img/marker.png);
-    background-position: 37px 25%;
+    background-position: 0 25%;
     background-repeat: no-repeat;
 }
 aside li a {
-    font-family: 'Lucida Sans Unicode';
+    font-family: 'Lucida Sans Unicode', sans-serif;
     font-size: 12.73px;
     color: #465961;
 }
 aside li:hover {
-    font-family: 'Arial';
+    font-family: 'Arial', sans-serif;
     font-size: 14px;
     font-weight: bold;
     font-style: italic;
@@ -602,7 +608,7 @@ section {
     height: 25px;
     border: 1px solid #79878d;
     border-radius: 15px;
-    font-family: 'Lucida Sans Unicode';
+    font-family: 'Lucida Sans Unicode', sans-serif;
     font-size: 12.73px;
     color: #114165;
     -webkit-box-shadow: 1px 3px 3px 0px rgba(150,150,150,0.75);
@@ -627,38 +633,26 @@ section {
 .tire_check span,
 .disk_check span {
     padding: 1px 0 0 2px;
-    font-family: 'Arial';
+    font-family: 'Arial', sans-serif;
     font-size: 14px;
     color: #114165;
 }
-section input {
-    display: none;
+.tire_brand,
+.disks_brand{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
 }
 section label {
-    position: relative;
-    margin-left: 47px;
-    line-height: 23px;
-    font-family: 'Lucida Sans Unicode';
+    margin-left: 5px;
+    line-height: 24px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
     font-size: 12.73px;
     color: #465961;
 }
-section label::before {
-    content: '';
-    position: absolute;
-    display: inline-block;
-    top: 5px;
-    left: -23px;
-    width: 8px;
-    height: 8px;
-    border: 1px solid #114165;
-    -webkit-box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.75);
-    box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.75);
-}
-section label:active::before {
-    content: '';
-    background-image: url(../img/checkmark.png);
-}
+ section label:hover {
+     color: #0c3256;
+ }
 section div:nth-child(3) {
     margin-bottom: 4px;
 }
@@ -690,12 +684,21 @@ section div:nth-child(8) {
 }
 .button p {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     height: 26px;
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     font-size: 11px;
     color: #e5e9ea;
+}
+
+input[type="submit"] {
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
 .logos {
     display: flex;
